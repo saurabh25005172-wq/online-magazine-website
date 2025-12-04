@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FitLife Club</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f9f9f9; color:#333; }
+    header { background:#222; color:#fff; padding:20px; text-align:center; }
+    nav a { color:#fff; margin:0 10px; text-decoration:none; }
+    section { padding:40px 20px; }
+    h2 { text-align:center; margin-bottom:20px; }
+    table { width:100%; border-collapse: collapse; margin:0 auto; background:#fff; }
+    th, td { border:1px solid #ccc; padding:10px; text-align:center; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px; }
+    .card { background:#fff; padding:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    .card img { width:100%; border-radius:6px; }
+    ul { list-style:none; padding:0; }
+    li { background:#fff; margin:10px 0; padding:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    footer { background:#222; color:#fff; text-align:center; padding:15px; margin-top:30px; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to FitLife Club</h1>
+    <nav>
+      <a href="#classes">Classes</a> |
+      <a href="#trainers">Trainers</a> |
+      <a href="#plans">Membership</a> |
+      <a href="#blog">Blog</a>
+    </nav>
+  </header>
+
+  <!-- Class Schedules -->
+  <section id="classes">
+    <h2>Class Schedules</h2>
+    <table>
+      <tr><th>Class</th><th>Day</th><th>Time</th></tr>
+      <tr><td>Yoga</td><td>Monday</td><td>7:00 AM</td></tr>
+      <tr><td>HIIT</td><td>Wednesday</td><td>6:00 PM</td></tr>
+      <tr><td>Zumba</td><td>Friday</td><td>5:00 PM</td></tr>
+    </table>
+  </section>
+
+  <!-- Trainer Profiles -->
+  <section id="trainers">
+    <h2>Our Trainers</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://picsum.photos/250/200?random=1" alt="Trainer Riya">
+        <h3>Riya Sharma</h3>
+        <p>Certified Yoga Instructor with 5 years of experience.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/250/200?random=2" alt="Trainer Arjun">
+        <h3>Arjun Singh</h3>
+        <p>HIIT and Strength Coach, NSCA Certified.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/250/200?random=3" alt="Trainer Neha">
+        <h3>Neha Gupta</h3>
+        <p>Zumba Specialist, ACE Certified.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership Plans -->
+  <section id="plans">
+    <h2>Membership Plans</h2>
+    <ul>
+      <li><strong>Basic:</strong> ₹999/month – Gym access only</li>
+      <li><strong>Standard:</strong> ₹1799/month – Gym + Classes</li>
+      <li><strong>Premium:</strong> ₹3499/month – All access + Personal Training</li>
+    </ul>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog">
+    <h2>Fitness Tips Blog</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://picsum.photos/400/250?random=4" alt="Warm-up tips">
+        <h3>5-Minute Warm-Up Routine</h3>
+        <p>Start your workout with dynamic stretches to prevent injuries.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/400/250?random=5" alt="Protein tips">
+        <h3>Protein Basics</h3>
+        <p>Learn how to balance protein intake for muscle recovery.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/400/250?random=6" alt="Hydration tips">
+        <h3>Stay Hydrated</h3>
+        <p>Drinking enough water boosts energy and performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 FitLife Club | Contact: info@fitlifeclub.com</p>
+  </footer>
+
+</body>
+</html>
